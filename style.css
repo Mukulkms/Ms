@@ -566,7 +566,9 @@ font-size: 2rem;
 }
 
 @media (max-width:620px){
-
+#page1{
+  height: 100vh;
+}
   .hero-cont{
     width: 100%;
   }
@@ -674,4 +676,35 @@ font-size: 2rem;
   font-size: 16px;
   left: 0;
 }
+}
+
+@media (max-width:620px){
+  #page1{
+    top: -7rem;
+  }
+  nav{
+    padding: 1rem;
+  }
+  h2{
+  font-size: 17px;
+  }
+  .h1{
+    font-size: 1.5rem;
+  }
+  .connectbtn{
+    left: 5rem;
+  }
+  .page5{
+    height: 200px;
+    top: -55rem;
+  }
+  .end{
+  padding: 0 1rem;
+  font-size: 3rem;
+  }
+  .name{
+    padding: 0 1rem;
+    font-size: 2.5rem;
+
+  }
 }
