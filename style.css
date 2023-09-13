@@ -566,34 +566,21 @@ font-size: 2rem;
 }
 
 @media (max-width:620px){
-#page1{
-  height: 100vh;
-}
-  .hero-cont{
-    width: 100%;
-    top: -8rem;
-    flex-direction: column-reverse;
+
+  #page1{
+    top: -5rem;
   }
- .hero-img{
-  width: 100px;
-  position: relative;
-  top: -1rem;
-  left: 12rem;
- }
- 
+  #page2{
+    height: 100vh;
+    top: -35rem;
+  }
  h4{
   position: relative;
   line-height: 3.2rem;
   top: 6rem;
   font-size: 10vw;
  }
- .half{
-  top: 10rem;
-  flex-direction: column;
- }
- .vd{
-  width: 200px;
- }
+ 
 .half-2{
   width: 100%;
   position: relative;
@@ -615,6 +602,9 @@ font-size: 2rem;
   width: 100%;
   padding: 0;
   left: 0;
+ }
+ #page3{
+  top: -40rem;
  }
  
  .title{
@@ -646,7 +636,7 @@ font-size: 2rem;
   padding: 0 2rem;
 }
 #page4{
-  top: -18rem;
+  top: -58rem;
 }
 .cct{
   padding: 0 2rem;
@@ -655,11 +645,11 @@ font-size: 2rem;
   padding: 0 1rem;
 }
 .page5{
-  top: -60rem;
+  top: -100rem;
 }
 #page6{
-  top: -50rem;
-  height: 200px;
+  top: -100rem;
+  height: 10px;
 }
 .end{
   line-height: 4rem;
@@ -681,11 +671,49 @@ font-size: 2rem;
   font-size: 16px;
   left: 0;
 }
+.half{
+  top: 10rem;
+  flex-direction: column;
+ }
 }
 
 @media (max-width:420px){
+  .half{
+    top: 10rem;
+    flex-direction: column;
+   }
   #page1{
-    top: -7rem;
+    top: -5rem;
+    padding: 0;
+    height: 100vh;
+  }
+  .hero{
+    width: 100%;
+  }
+  #page2{
+    height: 100vh;
+    top: -22rem;
+  }
+  #page3{
+    height: 260vh;
+  }
+.hero-img{
+  top: 8rem;
+  padding: 0 1rem;
+}
+  .himg{
+    width:100px;
+    
+  }
+  .hero-cont{
+    padding: 0;
+  }
+  h4{
+    font-size: 2rem;
+    width: 100%;
+  }
+  h5,h4{
+    padding: 0 1rem;
   }
   nav{
     padding: 1rem;
@@ -701,11 +729,11 @@ font-size: 2rem;
   }
   .page5{
     
-    top: -65rem;
+    top: -105rem;
   }
   #page6{
-    height: 250px;
-    top: -58rem;
+    top: -108rem;
+    height: 20vh;
   }
   .end{
   padding: 0 1rem;
