@@ -571,9 +571,14 @@ font-size: 2rem;
 }
   .hero-cont{
     width: 100%;
+    top: -8rem;
+    flex-direction: column-reverse;
   }
  .hero-img{
-  display: none;
+  width: 100px;
+  position: relative;
+  top: -1rem;
+  left: 12rem;
  }
  
  h4{
@@ -678,7 +683,7 @@ font-size: 2rem;
 }
 }
 
-@media (max-width:620px){
+@media (max-width:420px){
   #page1{
     top: -7rem;
   }
@@ -695,8 +700,12 @@ font-size: 2rem;
     left: 5rem;
   }
   .page5{
-    height: 200px;
-    top: -55rem;
+    
+    top: -65rem;
+  }
+  #page6{
+    height: 250px;
+    top: -58rem;
   }
   .end{
   padding: 0 1rem;
