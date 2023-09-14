@@ -1,0 +1,181 @@
+@media (max-width:1280px){
+    nav{
+        padding: 1rem 2rem;
+    }
+    h4{
+        font-size: 7vmax;
+    line-height: 90px;
+
+    }
+    .himg{
+        width: 85%;
+    }
+    h2{
+        font-size: 4vmax;
+        line-height: 4rem;
+    }
+}
+
+@media (max-width:768px){
+    h4{
+        position: relative;
+        top: 2rem;
+        font-size: 6.5vmax;
+        line-height: 4rem;
+    }
+    .half-1{
+        top: 8rem;
+        position: relative;
+    }
+    p{
+        width: 100%;
+    }
+    #page2{
+        height: 700px;
+    }
+    #page3{
+        top:8rem;
+        
+    }
+    #page4{
+        top: -8rem;
+       
+    }
+    .h1{
+        font-size: 2.3rem;
+    }
+    h4,h5{
+        padding: 0 0 0 2rem;
+    }
+    .page5{
+        top: -28rem;
+        height: 200px;
+    }
+    #page6{
+        height: 460px;
+        top: -20rem
+    }
+    .title{
+        padding: 0 2rem;
+    }
+    .ct{
+        top: 2rem;
+    }
+    .ct2{
+        top: -5rem;
+    }
+    .ct3{
+        top: -15rem;
+    }
+    .pname{
+        top: 0;
+        padding: 0 2rem;
+    }
+    .pname-2{
+        top: -10rem;
+        padding: 0 2rem;
+
+    }
+    .pname3{
+        top: -18rem;
+        padding: 0 2rem;
+
+    }
+    .cct{
+        padding: 0 2rem;
+
+    }
+    
+    .follow{
+        flex-direction: column;
+    }
+    .sdiv{
+        flex-direction: row;
+    }
+    .top{
+        left: 0;
+    }
+}
+
+@media (max-width:420px){
+    #page1{
+        height: 1100px;
+    }
+    .hero-cont{
+        top: -2rem;
+        flex-direction: column-reverse;
+    }
+    .hero{
+        top: 8rem;
+    }
+    h5{
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+    h4{
+        font-size: 2.8rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+    .half-1{
+        padding: 0 1rem;
+        justify-content: center;
+        width: 100%;
+        top: 10rem;
+    }
+    .btn{
+        width: 100%;
+    }
+    p{
+        text-align: center;
+        width: 100%;
+        
+    }
+    h1{
+        font-size: 5rem;
+        color: #000;
+        text-align: center;
+    }
+    #page2{
+        background-color: #fff;
+        height: 400px;
+    }
+    h2{
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight: 700;
+        color: #000000;
+    }
+    .abt{
+        top: 10rem;
+    }
+    .vd{
+        display: none;
+    }
+    .pname,.pname-2,.pname3{
+        padding: 0 1rem;
+        text-align: left;
+    }
+    .pname3{
+        top: -25rem;
+    }
+    .h1{
+        padding: 0 0 0 0.5rem;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .end{
+        padding: 0 1rem;
+        line-height: 4rem;
+        font-size: 3.1rem;
+    }
+    .name{
+        padding: 0 1rem;
+        line-height: 4rem;
+        font-size: 3.1rem;
+    }
+    .follow{
+        padding: 0 1rem;
+    }
+}
